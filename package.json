@@ -2,14 +2,18 @@
   "name": "meorbackend",
   "version": "1.0.0",
   "description": "chai or code channel",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "chai"
   ],
   "author": "vaibhav admane",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
