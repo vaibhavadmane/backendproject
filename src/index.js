@@ -22,6 +22,12 @@ connectDB()
 
 
 
+// app.get("/hii",(req,res)=>{
+//     console.log("gtrge");
+//     res.send("gferoio")
+// })
+
+
 
 
 
